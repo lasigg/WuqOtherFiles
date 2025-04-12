@@ -80,21 +80,21 @@
       {
         "Aura": {
           "Дистанция": 3.1,
-          "Дистанция через стены": 3.15,
+          "Дистанция через стены": 0.0,
           "ElytraOverride": false,
           "Дистанция на элитрах": 3.1,
           "Дистанция на элитрах через стены": 3.1,
           "Обход ударов через стены": "Off",
           "Поле Зрения": 180,
-          "Мод Ротации": "Track",
+          "Мод Ротации": "Interact",
           "Тики": 10,
           "Авто оружие": "None",
           "Только с оружием": false,
           "Умные криты": true,
           "Только Криты": false,
-          "Ломать щит": true,
+          "Ломать щит": false,
           "Не бить когда ешь": true,
-          "Синхронизация с сервеером": false,
+          "Синхронизация с сервеером": true,
           "Старая аттака": false,
           "Минимальный КПС": 7,
           "Максимальный КПС": 12,
@@ -102,13 +102,13 @@
           "Сорт": "LowestDistance",
           "Фокусировать цель": true,
           "Таргет на элитре": true,
-          "Доп. Опции": "lasio.wuq.setting.impl.SettingGroup@4be4eb17",
-          "Дистанция аима": 3.1,
+          "Доп. Опции": "lasio.wuq.setting.impl.SettingGroup@1fb019b5",
+          "Дистанция аима": 3.59,
           "Рандомная задержка удара": false,
           "Не бить когда в инвее": true,
-          "Сбросить спринт": false,
+          "Сбросить спринт": true,
           "Возврат спринта": true,
-          "Рэйтрэйс": "AllEntities",
+          "Рэйтрэйс": "OnlyTarget",
           "Грим рэйтрэйс": true,
           "Отжимать щит": true,
           "Выключать при смерти": true,
@@ -116,16 +116,13 @@
           "Только с джамп бустом": false,
           "Сила сброса": 3.0,
           "Рука для атаки": "MainHand",
-          "Резольвер": "Advantage",
-          "Бэк тики резольвера": 4,
-          "Визуализация резольвера": false,
-          "Ускорение при ударе": "Yaw",
+          "Ускорение при ударе": "Both",
           "Минимальный шаг yaw": 65,
           "Максимальный шаг yaw": 75,
           "Шаг питча при аиме": 1.0,
           "Максимальный шаг питча": 8.0,
           "Ускорение питча": 1.65,
-          "Цели": "lasio.wuq.setting.impl.SettingGroup@12ef2be5",
+          "Цели": "lasio.wuq.setting.impl.SettingGroup@24e21342",
           "Игроки": true,
           "Мобы": false,
           "Животные": false,
@@ -138,7 +135,7 @@
           "Игнор голых": false,
           "Атаковать с щитом": false,
           "Keybind": [
-            82,
+            -1,
             false
           ],
           "Drawn": true,
@@ -167,19 +164,12 @@
       },
       {
         "AutoLeave": {
-          "AntiHelperLeave": true,
-          "AntiKTLeave": true,
-          "AutoDisable": true,
-          "InstantLeave": true,
-          "Command": "hub",
-          "Leave if": "lasio.wuq.setting.impl.SettingGroup@1a77a0c2",
-          "LowHp": false,
-          "Totems": false,
-          "TotemsCount": 2,
-          "HP": 8.0,
-          "Staff": "None",
-          "Players": "Leave",
-          "Distance": 256,
+          "Мод лива": "Command",
+          "Комманда": "hub",
+          "Дистанция": 35,
+          "Авто выкл": false,
+          "Причина кика": "Вышел%%изза%%игрока",
+          "Клан хом": "home",
           "Keybind": [
             -1,
             false
@@ -215,7 +205,7 @@
           "CalcAbsorption": true,
           "StopMotion": false,
           "ResetAttackCooldown": false,
-          "Safety": "lasio.wuq.setting.impl.SettingGroup@4b88096e",
+          "Safety": "lasio.wuq.setting.impl.SettingGroup@67d8293a",
           "HotbarFallback": false,
           "FallBackCalc": true,
           "OnElytra": true,
@@ -238,10 +228,35 @@
         }
       },
       {
+        "ChestStealer": {
+          "Задержка": 6.1,
+          "Keybind": [
+            75,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
         "ClickGui": {
           "CloseAnimation": true,
           "Keybind": [
             344,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "ClickPearl": {
+          "Кнопка": [
+            "M2",
+            false
+          ],
+          "Keybind": [
+            -1,
             false
           ],
           "Drawn": true,
@@ -307,21 +322,6 @@
           ],
           "StartFireWork": true,
           "Мод фейерверка": "Normal",
-          "Keybind": [
-            -1,
-            false
-          ],
-          "Drawn": true,
-          "Enabled": false
-        }
-      },
-      {
-        "FakePlayer": {
-          "CopyInventory": false,
-          "Record": false,
-          "Play": false,
-          "AutoTotem": false,
-          "Name": "Hell_Raider",
           "Keybind": [
             -1,
             false
@@ -530,23 +530,6 @@
           ],
           "Drawn": true,
           "Enabled": true
-        }
-      },
-      {
-        "LogoutSpots": {
-          "RenderMode": "TexturedChams",
-          "Color": [
-            -2013200640,
-            false
-          ],
-          "Notifications": true,
-          "IgnoreBots": true,
-          "Keybind": [
-            -1,
-            false
-          ],
-          "Drawn": true,
-          "Enabled": false
         }
       },
       {
@@ -809,7 +792,7 @@
       },
       {
         "Shaders": {
-          "Select": "lasio.wuq.setting.impl.SettingGroup@27d8ef5b",
+          "Select": "lasio.wuq.setting.impl.SettingGroup@42955c88",
           "Hands": true,
           "Players": true,
           "Self": true,
@@ -830,7 +813,7 @@
           "SmokeOctaves": 10,
           "FillAlpha": 170,
           "SmokeGlow": true,
-          "Colors": "lasio.wuq.setting.impl.SettingGroup@4c834846",
+          "Colors": "lasio.wuq.setting.impl.SettingGroup@5d7798de",
           "Outline": [
             -2013200640,
             false
@@ -1001,7 +984,6 @@
       },
       {
         "TotemPopCounter": {
-          "Notification": true,
           "Keybind": [
             -1,
             false
@@ -1120,52 +1102,37 @@
         }
       },
       {
-        "ViewLock": {
-          "LockCurrent": true,
-          "Pitch": true,
-          "PitchValue": 85.25099,
-          "Yaw": true,
-          "YawValue": 159.71494,
-          "Keybind": [
-            -1,
-            false
-          ],
-          "Drawn": true,
-          "Enabled": false
-        }
-      },
-      {
         "ViewModel": {
           "SyncHands": true,
-          "MainHand": "lasio.wuq.setting.impl.SettingGroup@6b5580a4",
+          "MainHand": "lasio.wuq.setting.impl.SettingGroup@693bf831",
           "positionMainX": 0.59,
           "positionMainY": 0.0,
           "positionMainZ": -0.66,
           "ScaleMain": 1.0,
-          "Rotation": "lasio.wuq.setting.impl.SettingGroup@609d27d9",
+          "Rotation": "lasio.wuq.setting.impl.SettingGroup@4f8c8dd5",
           "rotationMainX": 0.0,
           "rotationMainY": 0.0,
           "rotationMainZ": 0.0,
-          "Animate": "lasio.wuq.setting.impl.SettingGroup@5faea6",
+          "Animate": "lasio.wuq.setting.impl.SettingGroup@2715f9b0",
           "animateMainX": false,
           "animateMainY": false,
           "animateMainZ": false,
           "speedAnimateMain": 1.0,
-          "OffHand": "lasio.wuq.setting.impl.SettingGroup@56c80793",
+          "OffHand": "lasio.wuq.setting.impl.SettingGroup@46c524e4",
           "positionOffX": 0.59,
           "positionOffY": 0.0,
           "positionOffZ": -0.66,
           "ScaleOff": 1.0,
-          "RotationOff": "lasio.wuq.setting.impl.SettingGroup@11dfed4e",
+          "RotationOff": "lasio.wuq.setting.impl.SettingGroup@7009a67d",
           "rotationOffX": 0.0,
           "rotationOffY": 0.0,
           "rotationOffZ": 0.0,
-          "AnimateOff": "lasio.wuq.setting.impl.SettingGroup@1875b343",
+          "AnimateOff": "lasio.wuq.setting.impl.SettingGroup@5b406f8c",
           "animateOffX": false,
           "animateOffY": false,
           "animateOffZ": false,
           "speedAnimateOff": 1.0,
-          "Eat": "lasio.wuq.setting.impl.SettingGroup@65221475",
+          "Eat": "lasio.wuq.setting.impl.SettingGroup@5310d52d",
           "EatX": 2.0,
           "EatY": 1.45,
           "Keybind": [
