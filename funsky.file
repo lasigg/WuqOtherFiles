@@ -1,0 +1,1221 @@
+[
+  {
+    "Modules": [
+      {
+        "Animations": {
+          "OnlyAura": false,
+          "DisableSwapMain": true,
+          "DisableSwapOff": true,
+          "Mode": "Six",
+          "SlowAnimation": true,
+          "SlowValue": 5,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "AntiBallPlace": {
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "AntiBot": {
+          "Remove": false,
+          "OnlyAura": true,
+          "Mode": "UUIDCheck",
+          "checkTicks": 3,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "AntiServerRP": {
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "ArmorHud": {
+          "Mode": "V2",
+          "Position": [
+            0.38227794,
+            0.81333005
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "AspectRatio": {
+          "Ratio": 1.78,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "Aura": {
+          "Дистанция": 3.1,
+          "Дистанция через стены": 3.15,
+          "ElytraOverride": false,
+          "Дистанция на элитрах": 3.1,
+          "Дистанция на элитрах через стены": 3.1,
+          "Обход ударов через стены": "Off",
+          "Поле Зрения": 180,
+          "Мод Ротации": "Track",
+          "Тики": 10,
+          "Авто оружие": "None",
+          "Только с оружием": false,
+          "Умные криты": true,
+          "Только Криты": false,
+          "Ломать щит": true,
+          "Не бить когда ешь": true,
+          "Синхронизация с сервеером": false,
+          "Старая аттака": false,
+          "Минимальный КПС": 7,
+          "Максимальный КПС": 12,
+          "ЕСП": "GHOST",
+          "Сорт": "LowestDistance",
+          "Фокусировать цель": true,
+          "Таргет на элитре": true,
+          "Доп. Опции": "lasio.wuq.setting.impl.SettingGroup@4be4eb17",
+          "Дистанция аима": 3.1,
+          "Рандомная задержка удара": false,
+          "Не бить когда в инвее": true,
+          "Сбросить спринт": false,
+          "Возврат спринта": true,
+          "Рэйтрэйс": "AllEntities",
+          "Грим рэйтрэйс": true,
+          "Отжимать щит": true,
+          "Выключать при смерти": true,
+          "Быстрое падение": false,
+          "Только с джамп бустом": false,
+          "Сила сброса": 3.0,
+          "Рука для атаки": "MainHand",
+          "Резольвер": "Advantage",
+          "Бэк тики резольвера": 4,
+          "Визуализация резольвера": false,
+          "Ускорение при ударе": "Yaw",
+          "Минимальный шаг yaw": 65,
+          "Максимальный шаг yaw": 75,
+          "Шаг питча при аиме": 1.0,
+          "Максимальный шаг питча": 8.0,
+          "Ускорение питча": 1.65,
+          "Цели": "lasio.wuq.setting.impl.SettingGroup@12ef2be5",
+          "Игроки": true,
+          "Мобы": false,
+          "Животные": false,
+          "Жители": false,
+          "Слаймы": false,
+          "Враждебные": false,
+          "Только злые": true,
+          "Прожктайлы": false,
+          "Игнор невидимых": false,
+          "Игнор голых": false,
+          "Атаковать с щитом": false,
+          "Keybind": [
+            82,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "AutoBuff": {
+          "Strength": true,
+          "Speed": true,
+          "FireResistance": true,
+          "InstantHealing": true,
+          "Health": 8,
+          "Regeneration": true,
+          "Trigger": "LackOfRegen",
+          "HP": 8,
+          "OnlyOnGround": true,
+          "PauseAura": false,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "AutoLeave": {
+          "AntiHelperLeave": true,
+          "AntiKTLeave": true,
+          "AutoDisable": true,
+          "InstantLeave": true,
+          "Command": "hub",
+          "Leave if": "lasio.wuq.setting.impl.SettingGroup@1a77a0c2",
+          "LowHp": false,
+          "Totems": false,
+          "TotemsCount": 2,
+          "HP": 8.0,
+          "Staff": "None",
+          "Players": "Leave",
+          "Distance": 256,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "AutoTPaccept": {
+          "Только друзья": true,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "AutoTotem": {
+          "Mode": "Default",
+          "Item": "Totem",
+          "BindSwap": false,
+          "SwapButton": [
+            280,
+            false
+          ],
+          "Swap": "GappleShield",
+          "NCPStrict": false,
+          "HP": 16.0,
+          "ShieldGappleHp": 16.0,
+          "CalcAbsorption": true,
+          "StopMotion": false,
+          "ResetAttackCooldown": false,
+          "Safety": "lasio.wuq.setting.impl.SettingGroup@4b88096e",
+          "HotbarFallback": false,
+          "FallBackCalc": true,
+          "OnElytra": true,
+          "OnFall": true,
+          "OnCrystal": true,
+          "OnObsidianPlace": false,
+          "OnCrystalInHand": false,
+          "OnMinecartTNT": true,
+          "OnCreeper": true,
+          "OnAnchor": true,
+          "OnTNT": true,
+          "RightClickGapple": "Off",
+          "CrappleSpoof": true,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "ClickGui": {
+          "CloseAnimation": true,
+          "Keybind": [
+            344,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "ClientSettings": {
+          "FutureCompatibility": false,
+          "RenderRotations": true,
+          "SkullEmoji": true,
+          "ClientMessages": true,
+          "Debug": false,
+          "CustomBob": true,
+          "Telemetry": true,
+          "Language": "RU",
+          "ClipCommandMode": "Matrix",
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "CreeperFarm": {
+          "Дистанция": 70.0,
+          "Проверка": 10.0,
+          "Режим погони": false,
+          "Авто-поиск криперов": true,
+          "Авто-еда": true,
+          "Keybind": [
+            267,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "DurabilityAlert": {
+          "Сообщение френдам": true,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "ElytraSwap": {
+          "Задержка": false,
+          "Мод": "Enable",
+          "Кнопка Свапа": [
+            -1,
+            false
+          ],
+          "Кнопка Фейерверка": [
+            -1,
+            false
+          ],
+          "StartFireWork": true,
+          "Мод фейерверка": "Normal",
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "FakePlayer": {
+          "CopyInventory": false,
+          "Record": false,
+          "Play": false,
+          "AutoTotem": false,
+          "Name": "Hell_Raider",
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "FreeCam": {
+          "HSpeed": 1.0,
+          "VSpeed": 0.42,
+          "Freeze": false,
+          "Track": false,
+          "Keybind": [
+            77,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "Fullbright": {
+          "MinBright": 0.5,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "GuiMove": {
+          "Bypass": "GrimSwap",
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "HitBoxes": {
+          "XZExpand": 1.0,
+          "YExpand": 0.0,
+          "AffectToAura": false,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "HitBubbles": {
+          "LifeTime": 30,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "HitParticles": {
+          "Mode": "Stars",
+          "Physics": "Fall",
+          "Color": [
+            -2013200640,
+            false
+          ],
+          "Self": false,
+          "Amount": 2,
+          "LifeTime": 2,
+          "Speed": 2,
+          "Scale": 3.0,
+          "ColorMode": "Sync",
+          "HealColor": [
+            3142544,
+            false
+          ],
+          "DamageColor": [
+            15811379,
+            false
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "HudEditor": {
+          "HudStyle": "Glowing",
+          "ColorMode": "Analogous",
+          "Light": true,
+          "Color": [
+            -6974059,
+            false
+          ],
+          "Color2": [
+            -8365735,
+            false
+          ],
+          "PlateColor": [
+            -419430400,
+            false
+          ],
+          "TextColor": [
+            -1,
+            false
+          ],
+          "TextColor2": [
+            -1,
+            false
+          ],
+          "BlurColor": [
+            -16773595,
+            false
+          ],
+          "HudRound": 4.0,
+          "Alpha": 0.9,
+          "Blend": 10.0,
+          "Outline": 0.5,
+          "Glow": 0.5,
+          "BlurOpacity": 0.55,
+          "BlurStrength": 20.0,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "ItemESP": {
+          "Shadow": false,
+          "ShadowColor": [
+            -16777216,
+            false
+          ],
+          "TextColor": [
+            -1,
+            false
+          ],
+          "Mode": "Rect",
+          "Radius": 1.0,
+          "UseHudColor": true,
+          "ColorOffset": 2,
+          "CircleColor": [
+            -1,
+            false
+          ],
+          "CirclePoints": 12,
+          "Keybind": [
+            260,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "ItemScroller": {
+          "Delay": 80,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "JumpCircle": {
+          "Mode": "Default",
+          "EaseOut": true,
+          "RotateSpeed": 2.0,
+          "CircleScale": 1.0,
+          "OnlySelf": false,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "KeyBinds": {
+          "Position": [
+            0.113161914,
+            0.060623135
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "LogoutSpots": {
+          "RenderMode": "TexturedChams",
+          "Color": [
+            -2013200640,
+            false
+          ],
+          "Notifications": true,
+          "IgnoreBots": true,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "Media": {
+          "Skin Protect": true,
+          "Nick Protect": true,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "NameProtect": {
+          "name": "Hell_Raider",
+          "Hide friends": true,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "NameTags": {
+          "Self": false,
+          "Scale": 0.82,
+          "Resize": false,
+          "Height": 2.0,
+          "Gamemode": false,
+          "SpawnerNameTag": false,
+          "EntityOwner": false,
+          "Ping": false,
+          "HP": true,
+          "Distance": false,
+          "TotemPops": true,
+          "OutlineType": "New",
+          "FriendOutline": "None",
+          "OutlineColor": [
+            -2147483648,
+            false
+          ],
+          "FriendOutlineColor": [
+            -2147483648,
+            false
+          ],
+          "Enchants": false,
+          "OnlyHands": false,
+          "FunTimeHp": true,
+          "IgnoreBots": false,
+          "Potions": false,
+          "Shulkers": false,
+          "Fill": [
+            -2147483648,
+            false
+          ],
+          "FriendFill": [
+            -2147483648,
+            false
+          ],
+          "FontMode": "Fancy",
+          "ArmorMode": "None",
+          "Health": "Number",
+          "Keybind": [
+            260,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "NoBob": {
+          "Mode": "Sexy",
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "NoCameraClip": {
+          "AntiFront": false,
+          "Distance": 3.0,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "NoEntityTrace": {
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "NoJumpDelay": {
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "NoPush": {
+          "Блоки": true,
+          "Игроки": true,
+          "Жидкости": false,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "NoRender": {
+          "noGuiBackGround": true,
+          "NoHandSwing": false,
+          "Auto": false,
+          "HurtCam": true,
+          "Potions": false,
+          "XP": false,
+          "Arrows": false,
+          "Eggs": false,
+          "Guardian": false,
+          "Vignette": true,
+          "Portal": true,
+          "Explosions": false,
+          "CampFire": false,
+          "Fireworks": false,
+          "Armor": false,
+          "Bossbar": false,
+          "FireOverlay": true,
+          "WaterOverlay": true,
+          "BlockOverlay": true,
+          "Nausea": true,
+          "Blindness": true,
+          "Fog": true,
+          "Darkness": true,
+          "Items": false,
+          "Crystals": false,
+          "FireEntity": true,
+          "BreakParticles": true,
+          "AntiTitle": false,
+          "AntiPlayerCollision": true,
+          "NoScoreBoard": false,
+          "SignText": false,
+          "NoWeather": true,
+          "NoArmorStands": false,
+          "SpawnerEntity": false,
+          "HotbarItemName": false,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "Particles": {
+          "FireFlies": true,
+          "FFCount": 30,
+          "FFSize": 1.0,
+          "Mode": "SnowFlake",
+          "Count": 100,
+          "Size": 1.0,
+          "ColorMode": "Sync",
+          "Color": [
+            3649978,
+            false
+          ],
+          "Physics": "Fly",
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "Potions": {
+          "Position": [
+            0.27670646,
+            0.060623135
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "ProjectileHelper": {
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "Rotations": {
+          "MoveFix": "Focused",
+          "ClientLook": false,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "ServerHelper": {
+          "TrueSight": true,
+          "SpekNotify": true,
+          "Дезориентация": [
+            90,
+            false
+          ],
+          "Трапка": [
+            86,
+            false
+          ],
+          "Явка": [
+            88,
+            false
+          ],
+          "AucHelper": false,
+          "GroupBy": "Name",
+          "Contrast": 1,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "Shaders": {
+          "Select": "lasio.wuq.setting.impl.SettingGroup@27d8ef5b",
+          "Hands": true,
+          "Players": true,
+          "Self": true,
+          "Friends": true,
+          "Crystals": true,
+          "Creatures": false,
+          "Monsters": false,
+          "Ambients": false,
+          "Others": false,
+          "Mode": "Default",
+          "HandsMode": "Default",
+          "MaxRange": 64,
+          "GradientFactor": 2.0,
+          "Gradient": 2.0,
+          "GradientAlpha": 170,
+          "LineWidth": 2,
+          "Quality": 3,
+          "SmokeOctaves": 10,
+          "FillAlpha": 170,
+          "SmokeGlow": true,
+          "Colors": "lasio.wuq.setting.impl.SettingGroup@4c834846",
+          "Outline": [
+            -2013200640,
+            false
+          ],
+          "SmokeOutline": [
+            -2013200640,
+            false
+          ],
+          "SmokeOutline2": [
+            -2013200640,
+            false
+          ],
+          "Fill": [
+            -2013200640,
+            false
+          ],
+          "SmokeFill": [
+            -2013200640,
+            false
+          ],
+          "SmokeFil2": [
+            -2013200640,
+            false
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "SoundFX": {
+          "Volume": 100,
+          "EnableMode": "Inertia",
+          "DisableMode": "Inertia",
+          "HitSound": "OFF",
+          "KillSound": "OFF",
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "StaffBoard": {
+          "Position": [
+            0.0,
+            0.060623135
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "StorageEsp": {
+          "Outline": true,
+          "Fill": true,
+          "Chest": true,
+          "Trapped Chest": true,
+          "Dispenser": false,
+          "Shulker": true,
+          "Ender Chest": true,
+          "Furnace": false,
+          "Hopper": false,
+          "Barrel": false,
+          "Minecart": false,
+          "ItemFrame": false,
+          "ChestColor": [
+            -2013200640,
+            false
+          ],
+          "TrappedChestColor": [
+            -2013200640,
+            false
+          ],
+          "ShulkerColor": [
+            -2013200640,
+            false
+          ],
+          "EChestColor": [
+            -2013200640,
+            false
+          ],
+          "FrameColor": [
+            -2013200640,
+            false
+          ],
+          "ShulkFrameColor": [
+            -2013200640,
+            false
+          ],
+          "FurnaceColor": [
+            -2013200640,
+            false
+          ],
+          "HopperColor": [
+            -2013200640,
+            false
+          ],
+          "DispenserColor": [
+            -2013200640,
+            false
+          ],
+          "BarrelColor": [
+            -2013200640,
+            false
+          ],
+          "MinecartColor": [
+            -2013200640,
+            false
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "TargetHud": {
+          "Position": [
+            0.4451163,
+            0.62000054
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "Tooltips": {
+          "MiddleClickOpen": true,
+          "Storage": true,
+          "Maps": true,
+          "ShulkerRegear": true,
+          "RegearShift": true,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "TotemAnimation": {
+          "Mode": "FadeOut",
+          "Speed": 33,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "TotemPopCounter": {
+          "Notification": true,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "TpsSync": {
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "Tracers": {
+          "Height": 0.0,
+          "Color": [
+            -1811939329,
+            false
+          ],
+          "Friends": [
+            -1827152291,
+            false
+          ],
+          "Keybind": [
+            93,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "Trails": {
+          "Xp": false,
+          "Pearls": "Particles",
+          "Arrows": "Particles",
+          "Players": "Particles",
+          "OnlySelf": false,
+          "Color": [
+            -2013200640,
+            false
+          ],
+          "Down": 0.5,
+          "Height": 1.3,
+          "Speed": 2,
+          "Mode": "Stars",
+          "Physics": "Fall",
+          "Scale": 3,
+          "Amount": 2,
+          "LifeTime": 2,
+          "ColorMode": "Sync",
+          "Color2": [
+            575714484,
+            false
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "Trajectories": {
+          "ColorMode": "Sync",
+          "Color": [
+            575714484,
+            false
+          ],
+          "LandedColorMode": "Sync",
+          "LandedColor": [
+            575714484,
+            false
+          ],
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "TriggerBot": {
+          "Range": 3.0,
+          "SmartCrit": true,
+          "OnlyCrit": false,
+          "AutoJump": false,
+          "IgnoreWalls": false,
+          "PauseWhileEating": false,
+          "RandomDelayMin": 2,
+          "RandomDelayMax": 13,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "UnHook": {
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "ViewLock": {
+          "LockCurrent": true,
+          "Pitch": true,
+          "PitchValue": 85.25099,
+          "Yaw": true,
+          "YawValue": 159.71494,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "ViewModel": {
+          "SyncHands": true,
+          "MainHand": "lasio.wuq.setting.impl.SettingGroup@6b5580a4",
+          "positionMainX": 0.59,
+          "positionMainY": 0.0,
+          "positionMainZ": -0.66,
+          "ScaleMain": 1.0,
+          "Rotation": "lasio.wuq.setting.impl.SettingGroup@609d27d9",
+          "rotationMainX": 0.0,
+          "rotationMainY": 0.0,
+          "rotationMainZ": 0.0,
+          "Animate": "lasio.wuq.setting.impl.SettingGroup@5faea6",
+          "animateMainX": false,
+          "animateMainY": false,
+          "animateMainZ": false,
+          "speedAnimateMain": 1.0,
+          "OffHand": "lasio.wuq.setting.impl.SettingGroup@56c80793",
+          "positionOffX": 0.59,
+          "positionOffY": 0.0,
+          "positionOffZ": -0.66,
+          "ScaleOff": 1.0,
+          "RotationOff": "lasio.wuq.setting.impl.SettingGroup@11dfed4e",
+          "rotationOffX": 0.0,
+          "rotationOffY": 0.0,
+          "rotationOffZ": 0.0,
+          "AnimateOff": "lasio.wuq.setting.impl.SettingGroup@1875b343",
+          "animateOffX": false,
+          "animateOffY": false,
+          "animateOffZ": false,
+          "speedAnimateOff": 1.0,
+          "Eat": "lasio.wuq.setting.impl.SettingGroup@65221475",
+          "EatX": 2.0,
+          "EatY": 1.45,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "WaterSpeed": {
+          "Mode": "FunTimeNew",
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
+        "WayPoints": {
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": true
+        }
+      },
+      {
+        "WorldTweaks": {
+          "FogModify": true,
+          "FogStart": 0,
+          "FogEnd": 64,
+          "FogColor": [
+            -5701377,
+            false
+          ],
+          "ChangeTime": false,
+          "Time": 21,
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      }
+    ]
+  }
+]
